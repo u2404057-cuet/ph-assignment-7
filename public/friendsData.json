@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Ayesha Rahman",
+      "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+      "email": "ayesha.rahman@gmail.com",
+      "days_since_contact": 18,
+      "status": "overdue",
+      "tags": ["college", "close friend"],
+      "bio": "Met during freshman year at BUET. We used to pull all-nighters before exams. She moved to Toronto after grad school but we still try to catch up regularly.",
+      "goal": 14,
+      "next_due_date": "2026-04-10"
+    },
+    {
+      "id": 2,
+      "name": "Tanvir Hossain",
+      "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+      "email": "tanvir.h@outlook.com",
+      "days_since_contact": 5,
+      "status": "on-track",
+      "tags": ["work", "mentor"],
+      "bio": "My first manager at the company. Taught me more about software architecture than any course ever did. We grab coffee every few weeks.",
+      "goal": 14,
+      "next_due_date": "2026-04-22"
+    },
+    {
+      "id": 3,
+      "name": "Sara Chowdhury",
+      "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+      "email": "sara.chowdhury@yahoo.com",
+      "days_since_contact": 11,
+      "status": "almost due",
+      "tags": ["childhood", "family friend"],
+      "bio": "Grew up two streets apart. Our families have been close for decades. She runs a small bakery now and sends me sweets every Eid.",
+      "goal": 10,
+      "next_due_date": "2026-04-18"
+    },
+    {
+      "id": 4,
+      "name": "Mehedi Islam",
+      "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+      "email": "mehedi.dev@proton.me",
+      "days_since_contact": 30,
+      "status": "overdue",
+      "tags": ["college", "tech friend"],
+      "bio": "We bonded over competitive programming in university. He's now a senior engineer at a fintech startup in Dhaka. Always has the best opinions on side projects.",
+      "goal": 21,
+      "next_due_date": "2026-04-05"
+    },
+    {
+      "id": 5,
+      "name": "Nadia Karim",
+      "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+      "email": "nadia.karim@gmail.com",
+      "days_since_contact": 3,
+      "status": "on-track",
+      "tags": ["close friend", "travel buddy"],
+      "bio": "Met on a group trip to Cox's Bazar in 2019. We've traveled to four countries together since. Planning a trip to Nepal next year.",
+      "goal": 7,
+      "next_due_date": "2026-04-20"
+    },
+    {
+      "id": 6,
+      "name": "Rafiul Alam",
+      "picture": "https://randomuser.me/api/portraits/men/54.jpg",
+      "email": "rafi.alam@hotmail.com",
+      "days_since_contact": 13,
+      "status": "almost due",
+      "tags": ["work", "lunch crew"],
+      "bio": "We worked at the same office for three years. Still meet for lunch once a month even after he switched companies. Great listener and always gives honest advice.",
+      "goal": 14,
+      "next_due_date": "2026-04-17"
+    },
+    {
+      "id": 7,
+      "name": "Priya Sen",
+      "picture": "https://randomuser.me/api/portraits/women/90.jpg",
+      "email": "priya.sen@designmail.io",
+      "days_since_contact": 45,
+      "status": "overdue",
+      "tags": ["college", "creative"],
+      "bio": "My go-to person for design feedback. We studied together at DU and she's now a UX lead at an agency in Kolkata. Distance has made keeping in touch harder lately.",
+      "goal": 30,
+      "next_due_date": "2026-03-28"
+    },
+    {
+      "id": 8,
+      "name": "Sabbir Ahmed",
+      "picture": "https://randomuser.me/api/portraits/men/23.jpg",
+      "email": "sabbir.ahmed92@gmail.com",
+      "days_since_contact": 7,
+      "status": "on-track",
+      "tags": ["close friend", "gym buddy"],
+      "bio": "We've been workout partners for two years. Beyond the gym, he's become one of my closest friends. Always motivating and brutally honest when I need it.",
+      "goal": 10,
+      "next_due_date": "2026-04-23"
+    }
+  ]
