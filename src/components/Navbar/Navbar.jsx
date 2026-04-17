@@ -12,7 +12,7 @@ const Navbar = () => {
   console.log(pathName);
 
   return (
-    <div className="navbar bg-base-200 mb-20 flex flex-col md:flex-row items-center">
+    <div className="navbar bg-base-300 mb-20 flex flex-col md:flex-row items-center">
       <div className="ps-4">
         <Link href='/' className="md:text-lg text-3xl font-extrabold text-black">Keen<span className="text-green-900 font-semibold">Keeper</span></Link>
       </div>

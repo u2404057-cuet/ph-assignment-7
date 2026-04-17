@@ -6,7 +6,7 @@ const FriendCard = ({ friend }) => {
   const {id, name, picture, days_since_contact, status, tags } = friend;
   return (
     <Link href={`/friend/${id}`}>
-      <div className="text-center bg-base-200 shadow rounded-2xl p-6">
+      <div className="text-center bg-base-300 shadow rounded-2xl p-6">
         <div className="flex justify-center">
           <Image
             src={picture}
