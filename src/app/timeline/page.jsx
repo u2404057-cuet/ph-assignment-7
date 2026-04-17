@@ -1,11 +1,9 @@
-import React from 'react';
-
-const TimeLinePage = () => {
+const TimelinePage = () => {
     return (
         <div>
-            this is timeline page
+            this is TimelinePage
         </div>
     );
 };
 
-export default TimeLinePage;
+export default TimelinePage;
