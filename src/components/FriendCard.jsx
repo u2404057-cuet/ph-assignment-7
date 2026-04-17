@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 
 const FriendCard = ({ friend }) => {
-  const { name, picture, days_since_contact, status, tags } = friend;
+  const {id, name, picture, days_since_contact, status, tags } = friend;
   return (
-    <Link href={``}>
+    <Link href={`/friend/${id}`}>
       <div className="text-center bg-base-200 shadow rounded-2xl p-6">
         <div className="flex justify-center">
           <Image
