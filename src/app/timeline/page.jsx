@@ -20,7 +20,7 @@ const TimelinePage = () => {
 
   return filteredTimeline.length === 0 ? (
     <div className="flex items-center justify-center h-80 bg-base-300 mb-20 container mx-auto rounded-2xl">
-      <p className="">Timeline is empty</p>
+      <p className="text-5xl font-bold">Timeline is empty</p>
     </div>
   ) : (
     <div className="space-y-4 container mx-auto mb-20">

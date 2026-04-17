@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { FaVideo } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { MdOutlineTextsms } from "react-icons/md";
+import { toast } from "react-toastify";
 
 const CheckIn = ({ name }) => {
   const { addToTimeline } = useContext(FriendsContext);
@@ -11,6 +12,7 @@ const CheckIn = ({ name }) => {
   const handleCheckIn = (type) => {
     const time = new Date().toLocaleString();
     addToTimeline(name, type, time);
+    toast(`${type} with ${name}`)
   }
   return (
     <>

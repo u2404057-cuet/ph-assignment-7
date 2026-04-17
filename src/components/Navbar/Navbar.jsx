@@ -9,7 +9,6 @@ import { GoGraph } from "react-icons/go";
 
 const Navbar = () => {
   const pathName = usePathname();
-  console.log(pathName);
 
   return (
     <div className="navbar bg-base-300 mb-20 flex flex-col md:flex-row items-center">
