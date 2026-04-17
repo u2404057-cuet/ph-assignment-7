@@ -3,7 +3,7 @@ import FriendCard from "@/components/FriendCard";
 import React from "react";
 import { FaPlus } from "react-icons/fa6";
 
-const FriendsPage = ({ friends }) => {
+const FriendsPage = ({ friends = [] }) => {
   return (
     <div className="container mx-auto space-y-10 mb-20">
       <div className="text-center space-y-7 border-b pb-7 border-gray-200">
