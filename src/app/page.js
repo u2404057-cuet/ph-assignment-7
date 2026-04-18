@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import FriendsPage from "./friend/page";
 
 export default async function Home() {
-  const res = await fetch("http://localhost:3000/friendsData.json", {cache: 'no-store'});
+  const res = await fetch("https://cuet-ph-assignment-7.netlify.app/friendsData.json", {cache: 'no-store'});
   const friends = await res.json();
 
 

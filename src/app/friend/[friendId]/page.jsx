@@ -6,7 +6,7 @@ import CheckIn from "@/components/CheckIn";
 
 const FriendDetailsPage = async ({ params }) => {
   const { friendId } = await params;
-  const res = await fetch("http://localhost:3000/friendsData.json", {
+  const res = await fetch("https://cuet-ph-assignment-7.netlify.app/friendsData.json", {
     cache: "no-store",
   });
   const friends = await res.json();
