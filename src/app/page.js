@@ -1,10 +1,16 @@
-import friendsData from "../../public/friendsData.json";
+import { Suspense } from "react";
 import FriendsPage from "./friend/page";
 
+export default async function Home() {
+  const res = await fetch("http://localhost:3000/friendsData.json", {cache: 'no-store'});
+  const friends = await res.json();
 
-export default function Home() {
 
-  const friends = friendsData;
-
-  return <FriendsPage friends={friends}></FriendsPage>;
+  return (
+    <Suspense
+      fallback={<div className="flex justify-center items-center"><span className="loading loading-spinner text-info"></span></div>}
+    >
+      <FriendsPage friends={friends}></FriendsPage>;
+    </Suspense>
+  );
 }

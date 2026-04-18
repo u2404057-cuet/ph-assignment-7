@@ -1,13 +1,15 @@
 import Image from "next/image";
-import friendsData from "../../../../public/friendsData.json";
 import { RiNotificationSnoozeFill } from "react-icons/ri";
-import { FaArchive, FaVideo } from "react-icons/fa";
+import { FaArchive } from "react-icons/fa";
 import { MdDeleteOutline } from "react-icons/md";
 import CheckIn from "@/components/CheckIn";
 
 const FriendDetailsPage = async ({ params }) => {
   const { friendId } = await params;
-  const friends = friendsData;
+  const res = await fetch("http://localhost:3000/friendsData.json", {
+    cache: "no-store",
+  });
+  const friends = await res.json();
 
   const friend = friends.find((f) => f.id == friendId);
 
@@ -16,7 +18,6 @@ const FriendDetailsPage = async ({ params }) => {
     picture,
     next_due_date,
     goal,
-    bio,
     tags,
     status,
     days_since_contact,
